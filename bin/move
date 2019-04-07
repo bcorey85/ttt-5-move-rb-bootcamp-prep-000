@@ -5,4 +5,5 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 puts "Welcome"
 puts "What position would you like to fill"
-board = gets.strip
+user_input = gets.strip
+index = input_to_index(user_input)
