@@ -20,7 +20,6 @@ puts "What position would you like to fill?"
 
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 
-puts "Where would you like to go? Please enter 1-9:"
 
 input = gets.strip
 
