@@ -17,3 +17,11 @@ index = input_to_index(input)
 move(board, index)
 
 display_board(board)
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Welcome"
+puts "What position would you like to fill?"
+user_input = gets.strip
+index = input_to_index(user_input)
+new_board = move(board, index, char = "X")
+display_board(new_board)
