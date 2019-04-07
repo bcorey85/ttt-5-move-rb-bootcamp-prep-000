@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "What position would you like to fill?"
 #user_input = gets.strip
@@ -18,7 +18,7 @@ puts "What position would you like to fill?"
 
 
 
-board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
+#board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 
 
 input = gets.strip
