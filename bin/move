@@ -7,3 +7,4 @@ puts "Welcome"
 puts "What position would you like to fill"
 user_input = gets.strip
 index = input_to_index(user_input)
+move(board,index,char = "X")
